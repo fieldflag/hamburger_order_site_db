@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:language>ja</dc:language>
+    <dc:title>ハンバーガー注文サイト データベース定義書</dc:title>
+    <meta property="dcterms:modified">2024-11-20T21:22:46Z</meta>
+    <dc:identifier id="BookId">urn:uuid:f231ac66-fa2e-4a50-b17e-b5fd536fe647</dc:identifier>
+    <meta name="Sigil version" content="2.3.1"/>
+  </metadata>
+  <manifest>
+    <item id="Section0001.xhtml" href="Text/ERD.xhtml" media-type="application/xhtml+xml"/>
+    <item id="sgc-nav.css" href="Styles/sgc-nav.css" media-type="text/css"/>
+    <item id="nav.xhtml" href="Text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="bootstrap.min.css" href="Styles/bootstrap.min.css" media-type="text/css"/>
+    <item id="bootstrap.bundle.min.js" href="Misc/bootstrap.bundle.min.js" media-type="application/javascript"/>
+    <item id="mermaid.min.js" href="Misc/mermaid.min.js" media-type="application/javascript"/>
+    <item id="x3a02b377-952b-4efb-b753-4d2cb9092a2a" href="Text/cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xdedee210-5675-48e6-8169-0adb1707eac1" href="Text/table_list.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cc-zero.png" href="Images/cc-zero.png" media-type="image/png"/>
+    <item id="xe9299e2c-c190-443a-98e0-e1505044140f" href="Text/products.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x0c2d9f75-0d32-4e68-9cea-f82269305efa" href="Text/categories.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x691f772c-78bf-46e8-b3b2-766317a8c3d1" href="Text/sales.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x73674782-c7ca-41b0-a030-179e21fd6af4" href="Text/orders.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xbd3014eb-7cbc-499d-8201-1f4a4a0281a2" href="Text/customers.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x8f6af98e-adbd-4ee7-a39c-cb7947838e79" href="Text/users.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x00e37ce8-7b44-4bb2-ac27-0fcab42788b4" href="Text/product_recommendations.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x11cfb989-9312-49cd-bf5d-63d338621d25" href="Text/setmenus.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xdf7ff23e-3f7a-48a3-b761-09c2c9c35fbb" href="Text/setmenu_items.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Style0001.css" href="Styles/sgc-index.css" media-type="text/css"/>
+  </manifest>
+  <spine>
+    <itemref idref="x3a02b377-952b-4efb-b753-4d2cb9092a2a"/>
+    <itemref idref="nav.xhtml" linear="no"/>
+    <itemref idref="xdedee210-5675-48e6-8169-0adb1707eac1"/>
+    <itemref idref="Section0001.xhtml"/>
+    <itemref idref="xe9299e2c-c190-443a-98e0-e1505044140f"/>
+    <itemref idref="x0c2d9f75-0d32-4e68-9cea-f82269305efa"/>
+    <itemref idref="x691f772c-78bf-46e8-b3b2-766317a8c3d1"/>
+    <itemref idref="x73674782-c7ca-41b0-a030-179e21fd6af4"/>
+    <itemref idref="xbd3014eb-7cbc-499d-8201-1f4a4a0281a2"/>
+    <itemref idref="x8f6af98e-adbd-4ee7-a39c-cb7947838e79"/>
+    <itemref idref="x00e37ce8-7b44-4bb2-ac27-0fcab42788b4"/>
+    <itemref idref="x11cfb989-9312-49cd-bf5d-63d338621d25"/>
+    <itemref idref="xdf7ff23e-3f7a-48a3-b761-09c2c9c35fbb"/>
+  </spine>
+</package>

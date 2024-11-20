@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" type="text/css" href="../Styles/bootstrap.min.css"/>
+  <title>ERD</title>
+</head>
+
+<body>
+<h1 style="display:none">ERD</h1>
+<pre class="mermaid">erDiagram
+
+    Products ||--o{ Sales : contains
+    Products ||--o{ product_recommendations : featured
+    Products ||--o{ setmenu_items : includes
+    Categories ||--|{ Products : categorizes
+
+    Customers ||--o{ Orders : places
+    Orders ||--o{ Sales : has
+
+    Users ||--|| Stores : works_at
+    Stores ||--o{ product_recommendations : has
+
+    setmenus ||--o{ setmenu_items : consists_of
+
+    Products {
+        int id PK
+        varchar name
+        text description
+        varchar photo
+        decimal price
+        bool display
+        bool enabled
+    }
+
+    Categories {
+        int id PK
+        varchar name
+        text description
+    }
+
+    Sales {
+        int id PK
+        int product_id FK
+        int quantity
+        datetime sale_date
+    }
+
+    Customers {
+        int id PK
+        varchar name
+        varchar hash
+        datetime lastlogin
+    }
+
+    Orders {
+        int id PK
+        int customer_id FK
+        datetime order_date
+        varchar order_no
+        decimal total
+    }
+
+    Users {
+        int id PK
+        varchar name
+        varchar hash
+        datetime lastlogin
+        varchar role
+        int store_id FK
+    }
+
+    Stores {
+        int id PK
+        varchar name
+        varchar address
+    }
+
+    product_recommendations {
+        int id PK
+        int store_id FK
+        int store_sort
+        int product_id FK
+        varchar photo
+        text description
+        bool display
+    }
+
+    setmenus {
+        int id PK
+        varchar name
+        text description
+        decimal price
+    }
+
+    setmenu_items {
+        int set_menu_id FK
+        int product_id FK
+    }
+
+</pre>
+
+  <script src="../Misc/bootstrap.bundle.min.js"></script>
+  <script src="../Misc/mermaid.min.js"></script>
+</body>
+</html>
