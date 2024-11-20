@@ -3,7 +3,7 @@
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
     <dc:language>ja</dc:language>
     <dc:title>ハンバーガー注文サイト データベース定義書</dc:title>
-    <meta property="dcterms:modified">2024-11-20T21:22:46Z</meta>
+    <meta property="dcterms:modified">2024-11-20T22:39:15Z</meta>
     <dc:identifier id="BookId">urn:uuid:f231ac66-fa2e-4a50-b17e-b5fd536fe647</dc:identifier>
     <meta name="Sigil version" content="2.3.1"/>
   </metadata>
@@ -27,6 +27,7 @@
     <item id="x11cfb989-9312-49cd-bf5d-63d338621d25" href="Text/setmenus.xhtml" media-type="application/xhtml+xml"/>
     <item id="xdf7ff23e-3f7a-48a3-b761-09c2c9c35fbb" href="Text/setmenu_items.xhtml" media-type="application/xhtml+xml"/>
     <item id="Style0001.css" href="Styles/sgc-index.css" media-type="text/css"/>
+    <item id="x729236a8-452b-46ed-a9bb-a378e9b341b0" href="Text/stores.xhtml" media-type="application/xhtml+xml"/>
   </manifest>
   <spine>
     <itemref idref="x3a02b377-952b-4efb-b753-4d2cb9092a2a"/>
@@ -36,9 +37,10 @@
     <itemref idref="xe9299e2c-c190-443a-98e0-e1505044140f"/>
     <itemref idref="x0c2d9f75-0d32-4e68-9cea-f82269305efa"/>
     <itemref idref="x691f772c-78bf-46e8-b3b2-766317a8c3d1"/>
-    <itemref idref="x73674782-c7ca-41b0-a030-179e21fd6af4"/>
     <itemref idref="xbd3014eb-7cbc-499d-8201-1f4a4a0281a2"/>
+    <itemref idref="x73674782-c7ca-41b0-a030-179e21fd6af4"/>
     <itemref idref="x8f6af98e-adbd-4ee7-a39c-cb7947838e79"/>
+    <itemref idref="x729236a8-452b-46ed-a9bb-a378e9b341b0"/>
     <itemref idref="x00e37ce8-7b44-4bb2-ac27-0fcab42788b4"/>
     <itemref idref="x11cfb989-9312-49cd-bf5d-63d338621d25"/>
     <itemref idref="xdf7ff23e-3f7a-48a3-b761-09c2c9c35fbb"/>
