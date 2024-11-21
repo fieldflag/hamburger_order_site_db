@@ -3,7 +3,7 @@
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
     <dc:language>ja</dc:language>
     <dc:title>ハンバーガー注文サイト データベース定義書</dc:title>
-    <meta property="dcterms:modified">2024-11-20T22:39:15Z</meta>
+    <meta property="dcterms:modified">2024-11-21T11:45:41Z</meta>
     <dc:identifier id="BookId">urn:uuid:f231ac66-fa2e-4a50-b17e-b5fd536fe647</dc:identifier>
     <meta name="Sigil version" content="2.3.1"/>
   </metadata>
